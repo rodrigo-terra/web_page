@@ -54,7 +54,6 @@
 }
 
 .search-bar::placeholder {
-  font-family: Roboto, Arial;
   font-size: 16px;
 }
 
@@ -62,9 +61,7 @@
   height: 39.5px;
   width: 66px;
   background-color: rgb(240,240,240);
-  border-width: 1px;
-  border-style: solid;
-  border-color: rgb(192, 192, 192);
+  border: 1px solid rgb(192, 192, 192);
   margin-left: -1px;
   margin-right: 10px;
 
@@ -83,7 +80,6 @@
 .search-button .tooltip, 
 .voice-search-button .tooltip,
 .upload-icon-container .tooltip {
-  font-family: Roboto, Arial;
   position: absolute;
   background-color: gray;
   color: white;
@@ -169,7 +165,6 @@
   right: 1.5px;
   background-color: rgb(200, 0, 0);
   color: white;
-  font-family: Roboto, Arial;
   font-size: 11px;
   padding-bottom: 2px;
   padding-top: 2px;
